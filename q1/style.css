@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+}
+
+.col{
+    background-color: red;
+    height: 296px;
+    padding: 32px;
+}
+
+@media (max-width: 768px) {
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .col{
+        height: 226px;
+        padding: 12px;
+    }
+}
