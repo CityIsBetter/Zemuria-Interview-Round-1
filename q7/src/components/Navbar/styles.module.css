@@ -1,0 +1,8 @@
+.main{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    border-bottom: 2px solid #3e3e3e;
+
+    font-size: 24px;
+}

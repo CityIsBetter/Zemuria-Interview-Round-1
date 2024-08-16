@@ -1,0 +1,14 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.variant{
+    padding: 32px;
+}
